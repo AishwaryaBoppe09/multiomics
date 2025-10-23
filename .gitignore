@@ -1,0 +1,20 @@
+# Ignore virtual environment
+venv/
+Lib/
+Include/
+Scripts/
+share/
+pyvenv.cfg
+
+# Ignore all other files except these
+!.gitignore
+!Datasets/
+!model.ipynb
+
+# Ignore cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.log
+.ipynb_checkpoints/
